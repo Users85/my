@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/css/5globals.css" />
+    <link rel="stylesheet" href="/css/5style.css" />
+    <link rel="stylesheet" href="/css/5styleguide.css" />
+    <link rel="stylesheet" href="/js/clc.js">
+  
+  </head>
+  <style>
+    .plusik{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .plusik button{
+      width: 30%;
+      border: none;
+      background: white;
+      cursor: pointer;
+    }
+    .plusik input{
+      text-align: center;
+      font-size: 24px;
+      width: 40%;
+    }
+ </style>
+ <script>
+
+
+
+      function add(val, slot){
+        elem = document.getElementById('number1');
+        if (val === "+"){
+            if (elem.value < 10){
+                elem.value = Number(elem.value) + 1;
+            }
+        } else {
+            if (elem.value > 0){
+                elem.value = Number(elem.value) - 1;
+            }
+        }
+    }
+ </script>
+  <body>
+    <div class="screen">
+      <div class="div">
+        <div class="view">
+          <div class="overlap">
+            <div class="rectangle"></div>
+            <div class="rectangle-2"></div>
+            <a href="/5index.html"><div class="text-wrapper">Корзина</div></a>
+            <a href="/4index.html"><div class="text-wrapper-2">Каталог</div></a>
+            <a href="/2index.html"><div class="text-wrapper-3">Доставка</div></a>
+            <a href="/8index.html"><div class="text-wrapper-4">Вход/Регистрация</div></a>
+            <div class="group">
+
+
+              
+              <div class="frame">
+                <div class="group-wrapper">
+                  <div class="overlap-group-wrapper">
+                   <a href="/1index.html"> <div class="overlap-group"><div class="toy">Toy</div></div></a>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scale"><div class="div-wrapper"><div class="text-wrapper-5">Корзина (1)</div></div></div></div>
+        <div class="overlap-2">
+          <div class="rectangle-3"></div>
+         <div class="scale">
+          <img class="img" src="https://c.animaapp.com/ChZE4PPj/img/rectangle-28@2x.png" />
+         </div> 
+          <div class="group-2">
+            <div class="text-wrapper-6">Выбрать всё</div>
+            <div class="overlap-wrapper">
+              <div class="overlap-group-2">
+                <div class="frame-2">
+                  <div class="group-3">
+                    <div class="overlap-group-2">
+                      <div class="rectangle-4"></div>
+                      <div class="rectangle-5"></div>
+                    </div>
+                  </div>
+                  <div class="group-3">
+                    <div class="overlap-group-2">
+                      <div class="rectangle-4"></div>
+                      <div class="rectangle-6"></div>
+                    </div>
+                  </div>
+                  <div class="group-3">
+                    <div class="overlap-group-2">
+                      <div class="rectangle-4"></div>
+                      <div class="rectangle-7"></div>
+                    </div>
+                  </div>
+                </div>
+                <img class="group-4" src="https://c.animaapp.com/ChZE4PPj/img/group-129@2x.png" />
+                <div class="group-5">
+                  <div class="overlap-3">
+                    <img class="line" src="https://c.animaapp.com/ChZE4PPj/img/line-126.svg" />
+                    <img class="subtract" src="https://c.animaapp.com/ChZE4PPj/img/subtract-1.svg" />
+                    <img class="subtract-2" src="https://c.animaapp.com/ChZE4PPj/img/subtract-2.svg" />
+                    <img class="line-2" src="https://c.animaapp.com/ChZE4PPj/img/line-128.svg" />
+                    <img class="line-3" src="https://c.animaapp.com/ChZE4PPj/img/line-128.svg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="overlap-4">
+              <div class="rectangle-4"></div>
+              <div class="group-6">
+              <div class="scale"><img class="exclude" src="https://c.animaapp.com/ChZE4PPj/img/exclude.svg" />
+                <img class="exclude-2" src="https://c.animaapp.com/ChZE4PPj/img/exclude-1.svg" />
+              </div> 
+              </div>
+            </div>
+          </div>
+          <div class="group-7"></div>
+          <div class="scale"><div class="rectangle-8"></div>
+          <div class="group-8"></div>
+        </div>
+          <p class="p">Мягкая игрушка Budi Basa Зайка</p>
+          <p class="budi-basa">
+            Характеристики<br />Состав — Искусственный мех, Текстиль<br />Производитель — Budi Basa<br />Страна
+            производства — Россия<br />Размер — 25 см
+          </p>
+          <div class="rectangle-9">
+            <div class="plusik">
+              <button class="js-plus-btn" type="button" onclick="add('+', 1)">+</button>
+              <input id="number1" class="js-number" type="number" name="number" value="1" min="1">
+              <button class="js-minus-btn" type="button" onclick="add('-', 1)">-</button>
+            </div>
+
+          </div>
+          <div class="text-wrapper-7">750 ₽</div>
+          <div class="text-wrapper-8">Скидка:</div>
+          <div class="text-wrapper-8">Скидка:</div>
+          <div class="text-wrapper-9">Её нет</div>
+          <div class="text-wrapper-10">Сумма :</div>
+          <a href="/2index.html"><div class="component"><div class="text-wrapper-11">Покупка</div></div></a>
+        
+            <div class="line-wrapper">
+              <!-- <img class="line-4" src="https://c.animaapp.com/ChZE4PPj/img/line-131.svg" /> -->
+           
+          </div>
+       
+            <div class="group-11">
+              <div class="overlap-group-3">
+                <!-- <img class="line-5" src="https://c.animaapp.com/ChZE4PPj/img/line-129.svg" />
+                <img class="line-6" src="https://c.animaapp.com/ChZE4PPj/img/line-130.svg" /> -->
+              </div>
+        
+          </div>
+        </div>
+
+
+        <div class="view-2">
+          <div class="group-12">
+          <div class="overlap-5">
+            
+              <div class="group-13">
+                <div class="overlap-group-4"><div class="text-wrapper-12">e-mail</div></div>
+                <div class="frame-wrapper">
+                <a href="/2index.html"><div class="frame-3"><div class="text-wrapper-13">Отправить</div></div></a> 
+                </div>
+              </div>
+            </div>
+            <div class="group-14">
+             <a href="/4index.html"><div class="text-wrapper-14">Каталог</div></a> 
+             <a href="/2index.html"><div class="text-wrapper-15">Советы по уходу</div></a>  
+             <a href="/2index.html"><div class="text-wrapper-16">Оплата и доставка</div></a>  
+             <a href="/2index.html"> <div class="text-wrapper-17">Контакты</div></a> 
+            </div>
+            <a href="/2index.html"><img class="social-icons" src="https://c.animaapp.com/ChZE4PPj/img/social-icons.svg" /></a>
+            <a href="/2index.html"><img class="social-icons-2" src="https://c.animaapp.com/ChZE4PPj/img/social-icons-1.svg" /></a>
+            <a href="/2index.html"><img class="social-icons-3" src="https://c.animaapp.com/ChZE4PPj/img/social-icons-2.svg" /></a>
+          </div>
+        </div>
+
+
+        <div class="group-15">
+          <div class="group-16">
+            <div class="overlap-group-5">
+              <div class="scale">
+              <img class="line-7" src="https://c.animaapp.com/ChZE4PPj/img/line-132.svg" />
+              <img class="line-8" src="https://c.animaapp.com/ChZE4PPj/img/line-139.svg" />
+              <img class="line-9" src="https://c.animaapp.com/ChZE4PPj/img/line-139.svg" />
+              <img class="line-10" src="https://c.animaapp.com/ChZE4PPj/img/line-140.svg" />
+              <img class="line-11" src="https://c.animaapp.com/ChZE4PPj/img/line-141.svg" />
+              <img class="line-12" src="https://c.animaapp.com/ChZE4PPj/img/line-133.svg" />
+              <img class="line-13" src="https://c.animaapp.com/ChZE4PPj/img/line-134.svg" />
+              <img class="line-14" src="https://c.animaapp.com/ChZE4PPj/img/line-135.svg" />
+              <img class="line-15" src="https://c.animaapp.com/ChZE4PPj/img/line-136.svg" />
+              <img class="line-16" src="https://c.animaapp.com/ChZE4PPj/img/line-137.svg" />
+              <img class="subtract-3" src="https://c.animaapp.com/ChZE4PPj/img/subtract-4.svg" />
+              <img class="subtract-4" src="https://c.animaapp.com/ChZE4PPj/img/subtract-4.svg" />
+            </div>
+            </div>
+          </div>
+         <div class="scale"><div class="overlap-6"><div class="text-wrapper-18">ЕЩЁ...</div></div></div> 
+        </div>
+      </div>
+    </div>
+    <script>
+      
+
+      if(document.URL.endsWith('id=1')){
+        elem = document.getElementById('number1');
+        elem.value =2;
+      }
+    </script>
+  </body>
+</html>
